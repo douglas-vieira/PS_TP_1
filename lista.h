@@ -9,6 +9,7 @@ palestra *cria_list_palestra (void)
 disponibilidade *cria_list_disponibilidade (void)
 {
 	return NULL;
+	
 }
 
 
