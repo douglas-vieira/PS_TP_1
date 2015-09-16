@@ -22,3 +22,12 @@ typedef struct Palestra
 	duracao [30];
 	struct Palestra *prox
 }palestra;
+
+typedef struct Evento //struct que vai compor a lista no vetor de 12 elementos
+{
+	struct Evento *ant;
+	int dia;
+	char nome_palestra[30];
+	char nome_palestrante[30];
+	struct Evento *prox
+}Evento;
